@@ -1,0 +1,79 @@
+{
+	"entombedSphinx": 
+	{
+		"name": 
+		{
+			"plural": "Entombed Sphinxes",
+			"singular": "Entombed Sphinx"
+		},
+		"advMapAmount": 
+		{
+			"max" : 12,
+			"min" : 5
+		},
+		"faction": "neutral",
+		"aiValue": 1438,
+		"attack": 16,
+		"cost": 
+		{
+			"gold": 1000
+		},
+		"damage": 
+		{
+			"max" : 19,
+			"min" : 15
+		},
+		"defense": 17,
+		"fightValue": 1255,
+		"graphics": 
+		{
+			"animation": "hauntedSphinx",
+			"map": "hauntedSphinxMap",
+			"iconSmall": "hauntedSphinxS",
+			"iconLarge": "hauntedSphinxL",
+			"timeBetweenFidgets": 1,
+			"animationTime": 
+			{
+				"walk": 0.6,
+				"attack": 1,
+				"idle": 10,
+				"flight": 1
+			}
+		},
+		"doubleWide": true,
+		"growth": 2,
+		"hitPoints": 80,
+		"level": 6,
+		"upgrades": 
+		[
+			"ashenSphinx"
+		],
+		"sound": 
+		{
+			"attack": "NSPHATTK",
+			"defend": "NSPHDFND",
+			"killed": "NSPHDEAD",
+			"move": "NSPHMOVE",
+			"wince": "NSPHWNCE"
+		},
+		"speed": 8,
+		"abilities": 
+		{
+			"canFly" :
+			{
+				"type" : "FLYING"
+			},
+			"isUndead" :
+			{
+				"type" : "UNDEAD"
+			},
+			"transmutation" :
+			{
+				"type" : "TRANSMUTATION",
+				"addInfo" : "creature.madMummy",
+				"subtype" : 1,
+				"val" : 10
+			}
+		}
+	}	
+}

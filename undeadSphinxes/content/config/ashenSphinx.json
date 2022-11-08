@@ -1,0 +1,72 @@
+{
+	"ashenSphinx": {
+		"name": 
+		{
+			"plural": "Ashen Sphinxes",
+			"singular": "Ashen Sphinx"
+		},
+		"advMapAmount": 
+		{
+			"max" : 10,
+			"min" : 5
+		},
+		"faction": "neutral",
+		"aiValue": 1847,
+		"attack": 18,
+		"cost": {
+			"gold": 1300
+		},
+		"damage": {
+			"max" : 24,
+			"min" : 18
+		},
+		"defense": 19,
+		"fightValue": 1585,
+		"graphics": 
+		{
+			"animation": "undeadSphinx",
+			"map": "undeadSphinxMap",
+			"iconSmall": "undeadSphinxS",
+			"iconLarge": "undeadSphinxL",
+			"timeBetweenFidgets": 1,
+			"animationTime": 
+			{
+				"walk": 0.6,
+				"attack": 1,
+				"idle": 10,
+				"flight": 1
+			}
+		},
+		"doubleWide": true,
+		"growth": 2,
+		"hitPoints": 95,
+		"level": 6,
+		"sound": 
+		{
+			"attack": "NSPHATTK",
+			"defend": "NSPHDFND",
+			"killed": "NSPHDEAD",
+			"move": "NSPHMOVE",
+			"wince": "NSPHWNCE"
+		},
+		"speed": 9,
+		"abilities": 
+		{
+			"canFly" :
+			{
+				"type" : "FLYING"
+			},
+			"isUndead" :
+			{
+				"type" : "UNDEAD"
+			},
+			"transmutation" :
+			{
+				"type" : "TRANSMUTATION",
+				"addInfo" : "creature.madMummy",
+				"subtype" : 1,
+				"val" : 20
+			}
+		}
+    }
+}

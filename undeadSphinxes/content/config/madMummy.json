@@ -1,0 +1,73 @@
+{
+	"madMummy": {
+		"name": 
+		{
+			"plural": "Mummies",
+			"singular": "Mummy"
+		},
+		"advMapAmount": 
+		{
+			"max" : 25,
+			"min" : 12
+		},
+		"faction": "neutral",
+		"aiValue": 290,
+		"attack": 7,
+		"cost": {
+			"gold": 300
+		},
+		"damage": {
+			"max" : 5,
+			"min" : 3
+		},
+		"defense": 7,
+		"fightValue": 290,
+		"graphics": 
+		{
+			"animation": "CMUMMY.DEF",
+			"map": "AVWmumy",
+			"iconSmall": "CPrS141N",
+			"iconLarge": "CPrL141N",
+			"timeBetweenFidgets": 1,
+			"animationTime": 
+			{
+				"walk": 0.6,
+				"attack": 1,
+				"idle": 10,
+				"flight": 1
+			}
+		},
+		"doubleWide": false,
+		"growth": 7,
+		"hitPoints": 30,
+		"level": 3,
+		"sound": 
+		{
+			"attack": "MUMYATTK.wav",
+			"defend": "MUMYDFND.wav",
+			"killed": "MUMYKILL.wav",
+			"move": "MUMYMOVE.wav",
+			"wince": "MUMYWNCE.wav"
+		},
+		"speed": 5,
+		"abilities": 
+		{
+			"undead" :
+			{
+				"type" : "UNDEAD"
+			},
+			"castCurse" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.curse",
+				"val" : 50
+			},
+			"berserkEnchanted" :
+			{
+				"type" : "ENCHANTED",
+				"subtype" : "spell.berserk",
+				"val" : 3
+			}
+		}
+    }
+}

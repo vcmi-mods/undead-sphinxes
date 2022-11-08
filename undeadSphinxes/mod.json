@@ -1,0 +1,25 @@
+{
+	"name" : "Undead Sphinxes",
+	"description" : "Two new neutral creatures: Haunted Sphinx and Undead Sphinx.",	
+	"author" : "witchking, fiorin, Trith, avatar, Andruids, fred79",
+	"contact" : "http://forum.vcmi.eu/index.php",
+	"version" : "1.00",
+	"modType" : "Creatures",	
+	
+	"creatures" :
+	[
+		"config/entombedSphinx",
+		"config/ashenSphinx",
+		"config/madMummy"
+	],
+	
+	"objects" : 
+	[ 
+		"config/pestilentPyramid"
+	],
+
+	"changelog" :
+    {
+		"1.00"   : [ "Initial release" ]
+    }
+}

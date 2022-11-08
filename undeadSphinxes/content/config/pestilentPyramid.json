@@ -1,0 +1,20 @@
+{
+	"core:creatureGeneratorCommon" : {
+		"types" : {
+			"pestilentPyramid" : {
+				"name" : "Pestilent Pyramid",
+				"guards" : true,
+				"creatures" : [[ "entombedSphinx" ]],
+				"sounds": {
+					"ambient": ["DWELLOOP"]
+				},
+				"templates" : {
+					"default" : {
+						"animation" : "pestilentPyramid",
+						"mask" : [ "VBV", "VAB" ]
+					}
+				}
+			}
+		}		
+	}
+}

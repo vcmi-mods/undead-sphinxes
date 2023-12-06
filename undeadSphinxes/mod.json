@@ -3,7 +3,7 @@
 	"description" : "Two new neutral creatures: Haunted Sphinx and Undead Sphinx.",	
 	"author" : "witchking, fiorin, Trith, avatar, Andruids, fred79",
 	"contact" : "http://forum.vcmi.eu/index.php",
-	"version" : "1.01",
+	"version" : "1.02",
 	"modType" : "Creatures",	
 	
 	"creatures" :
@@ -18,10 +18,11 @@
 	],
 	"compatibility" :
 	{
-		"min" : "1.0.0"
+		"min" : "1.4.0"
 	},
 	"changelog" :
     {
+		"1.02"   : [ "Update for vcmi-1.2 format" ],
 		"1.01"   : [ "Small update for vcmi-1.2" ],
 		"1.00"   : [ "Initial release" ]
     }

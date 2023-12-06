@@ -63,7 +63,7 @@
 			{
 				"type" : "TRANSMUTATION",
 				"addInfo" : "creature.madMummy",
-				"subtype" : 1,
+				"subtype" : "transmutationPerUnit",
 				"val" : 20
 			}
 		}

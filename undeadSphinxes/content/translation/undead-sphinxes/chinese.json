@@ -1,0 +1,9 @@
+{
+    "creatures.undead-sphinxes.ashenSphinx.name.plural" : "灰烬斯芬克斯",
+    "creatures.undead-sphinxes.ashenSphinx.name.singular" : "灰烬斯芬克斯",
+    "creatures.undead-sphinxes.entombedSphinx.name.plural" : "陵墓斯芬克斯",
+    "creatures.undead-sphinxes.entombedSphinx.name.singular" : "陵墓斯芬克斯",
+    "creatures.undead-sphinxes.madMummy.name.plural" : "木乃伊",
+    "creatures.undead-sphinxes.madMummy.name.singular" : "木乃伊",
+    "mapObject.undead-sphinxes.creatureGeneratorCommon.pestilentPyramid.name" : "瘟疫金字塔",
+}

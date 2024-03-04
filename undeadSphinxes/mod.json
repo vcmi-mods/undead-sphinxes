@@ -25,5 +25,12 @@
 		"1.02"   : [ "Update for vcmi-1.2 format" ],
 		"1.01"   : [ "Small update for vcmi-1.2" ],
 		"1.00"   : [ "Initial release" ]
-    }
+    },
+	"chinese" : {
+		"name" : "不死斯芬克斯",
+		"description" : "两个新中立生物：灰烬斯芬克斯和陵墓斯芬克斯",
+		"translations" : [
+			"translation/undead-sphinxes/chinese.json"
+		]
+	}
 }

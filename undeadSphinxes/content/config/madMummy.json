@@ -24,10 +24,10 @@
 		"fightValue": 290,
 		"graphics": 
 		{
-			"animation": "CMUMMY.DEF",
-			"map": "AVWmumy",
-			"iconSmall": "CPrS141N",
-			"iconLarge": "CPrL141N",
+			"animation": "raisedMummy",
+			"map": "raisedMummy_Map",
+			"iconSmall": "prSmall",
+			"iconLarge": "prL_Neutral",
 			"timeBetweenFidgets": 1,
 			"animationTime": 
 			{

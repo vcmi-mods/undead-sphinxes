@@ -32,6 +32,12 @@
 		"description" : "两个新中立生物：灰烬斯芬克斯和陵墓斯芬克斯",
 		"translations" : [
 			"translation/undead-sphinxes/chinese.json"
+    },
+	"russian" : {
+		"name" : "Немертвые сфинксы",
+		"description" : "Два новых нейтральных существа: Пепельный Сфинкс и Погребальный Сфинкс.",
+		"translations" : [
+			"translation/undead-sphinxes/russian.json"
 		]
 	}
 }

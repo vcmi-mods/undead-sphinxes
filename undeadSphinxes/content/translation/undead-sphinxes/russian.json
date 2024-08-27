@@ -1,0 +1,9 @@
+{
+    "creatures.undead-sphinxes.ashenSphinx.name.plural" : "Пепельные Сфинксы",
+    "creatures.undead-sphinxes.ashenSphinx.name.singular" : "Пепельный Сфинкс",
+    "creatures.undead-sphinxes.entombedSphinx.name.plural" : "Погребенные Сфинксы",
+    "creatures.undead-sphinxes.entombedSphinx.name.singular" : "Погребенный Сфинкс",
+    "creatures.undead-sphinxes.madMummy.name.plural" : "Безумные мумии",
+    "creatures.undead-sphinxes.madMummy.name.singular" : "Безумная мумия",
+    "mapObject.undead-sphinxes.creatureGeneratorCommon.pestilentPyramid.name" : "Чумная пирамида",
+}

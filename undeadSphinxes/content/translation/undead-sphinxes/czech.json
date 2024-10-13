@@ -1,0 +1,9 @@
+{
+    "creatures.undead-sphinxes.ashenSphinx.name.plural" : "Popelové sfingy",
+    "creatures.undead-sphinxes.ashenSphinx.name.singular" : "Popelová sfinga",
+    "creatures.undead-sphinxes.entombedSphinx.name.plural" : "Hrobkové sfingy",
+    "creatures.undead-sphinxes.entombedSphinx.name.singular" : "Hrobková sfinga",
+    "creatures.undead-sphinxes.madMummy.name.plural" : "Šílené mumie",
+    "creatures.undead-sphinxes.madMummy.name.singular" : "Šílená mumie",
+    "mapObject.undead-sphinxes.creatureGeneratorCommon.pestilentPyramid.name" : "Morová pyramida",
+}

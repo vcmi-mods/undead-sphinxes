@@ -2,8 +2,8 @@
 	"madMummy": {
 		"name": 
 		{
-			"plural": "Mummies",
-			"singular": "Mummy"
+			"plural": "Cursed Mummies",
+			"singular": "Cursed Mummy"
 		},
 		"advMapAmount": 
 		{
@@ -20,7 +20,7 @@
 			"max" : 5,
 			"min" : 3
 		},
-		"defense": 7,
+		"defense": 6,
 		"fightValue": 290,
 		"graphics": 
 		{
@@ -46,7 +46,9 @@
 			"defend": "MUMYDFND.wav",
 			"killed": "MUMYKILL.wav",
 			"move": "MUMYMOVE.wav",
-			"wince": "MUMYWNCE.wav"
+			"wince": "MUMYWNCE.wav",
+			"startMoving": "NOSFEXT1.wav",
+			"endMoving": "NOSFEXT2.wav",
 		},
 		"speed": 5,
 		"abilities": 
@@ -54,6 +56,11 @@
 			"undead" :
 			{
 				"type" : "UNDEAD"
+			},
+			"teleport" :
+			{
+				"type" : "FLYING",
+				"subtype" : "movementTeleporting"
 			},
 			"castCurse" :
 			{
